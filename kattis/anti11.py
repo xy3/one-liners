@@ -1,0 +1,1 @@
+(lambda xx: [print(xx[int(input())] % 1000000007) for _ in range(int(input()))])((lambda l, m: ([m.append(m[i - 1] + m[i]) for i in range(3, 10005)], m))([], [0, 2, 3, 5])[1])
