@@ -1,0 +1,1 @@
+[print((((x[0]+x[1]) * (x[0]+x[1]+1))//2) + 1 + x[1]) for x in [list(map(int, input().split())) for _ in range(int(input()))]]
