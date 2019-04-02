@@ -1,0 +1,1 @@
+print((lambda x: 'INCREASING' if sorted(x) == x else 'DECREASING' if sorted(x, reverse=True) == x else 'NEITHER')([input() for _ in range(int(input()))]))
