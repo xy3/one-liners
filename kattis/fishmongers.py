@@ -1,0 +1,1 @@
+print(((lambda maps: ((lambda fish, mong: (sum([sum([fish.pop() * p if len(fish) > 0 else 0 for i in range(x)]) if len(fish) > 0 else 0 for (x, p) in mong]), 0))(sorted(map(int, input().split())), sorted([tuple(map(int, input().split())) for _ in range(maps[1])], key=(lambda xx: xx[1]), reverse=True))))(list(map(int, input().split()))))[0])
