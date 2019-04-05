@@ -1,0 +1,1 @@
+(lambda a: (lambda l: print(*list(set([''.join(x) for x in (__import__("itertools")).permutations('abcdefghijklmnopqrsquvwxyz'[:a+1], l)][:a+15000]))[:a]))((lambda log: 1 if log < 1 else log)((__import__("math")).ceil((__import__("math")).log(a, 26)))))(sum(map(int, input().split()))//2)
