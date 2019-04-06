@@ -1,0 +1,1 @@
+print((lambda i: (lambda x, y: x if x <= 1 else (lambda x,y,xx: min(x, 1 + y + (x-y)) if xx == 0 else min(x, 1 + y + (x-xx)))(x, y, (x//y)*y))(i[0]-1, i[1]))(list(map(int, input().split()))))
