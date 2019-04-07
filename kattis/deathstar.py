@@ -1,0 +1,1 @@
+print(*list((lambda g:(lambda o:o if[o.append(((lambda d:d if[d.__setitem__(0,d[0]|y)for y in[v for(x,v)in enumerate(g[i]) if x != i]]else 0)({0:0}))[0])for i in range(len(g))]else 0)([]))([list(map(int,input().split()))for _ in range(int(input()))])))
