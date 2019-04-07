@@ -1,0 +1,1 @@
+[(lambda n:print(f"Case {i}: {min(n)} {max(n)} {max(n)-min(n)}"))(list(map(int,v.split()))[1:])for i,v in enumerate((__import__("sys")).stdin.readlines(),1)]
