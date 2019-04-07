@@ -1,0 +1,1 @@
+(lambda t:[print((lambda s:'pangram'if len(s)==26 else'missing '+''.join([c for c in t if c not in s]))(set([l for l in input().lower()if l in t])))for _ in range(int(input()))])('abcdefghijklmnopqrstuvwxyz')
