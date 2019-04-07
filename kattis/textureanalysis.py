@@ -1,0 +1,1 @@
+[print(i,(lambda u:'NOT 'if len(set(u))!=1 else'')((lambda x:x[1:-1] if(len(x)>2)else x)(l.strip().split('*')))+'EVEN') for(i, l)in enumerate((__import__('sys')).stdin.readlines()[:-1],1)]
