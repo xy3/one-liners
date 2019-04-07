@@ -1,0 +1,1 @@
+(lambda d:print((lambda x:'Runoff!'if d[x[-1]]==d[x[-2]]else x[-1].strip())(sorted(d,key=lambda l:d[l]))))(((lambda d:d if[d.__setitem__(l,d[l]+1)if l in d else d.__setitem__(l,1)for l in(__import__('sys')).stdin.readlines()[:-1]]else 0)({})))
