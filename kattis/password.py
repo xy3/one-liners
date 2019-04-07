@@ -1,0 +1,1 @@
+print((lambda x:sum([i*x[i-1]for i in range(len(x)+1)]))(sorted([float(input().split()[1])for _ in range(int(input()))], reverse=1)))
