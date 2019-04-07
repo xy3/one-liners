@@ -1,0 +1,1 @@
+print(*[str(x) for x in sorted((lambda x: (lambda xx: (lambda s: 0 if not [[s.add(xx[j]-xx[i]) for j in range(i+1, x[1]+1)] for i in range(x[1])] else s)(set(xx)))(list(map(int, input().split())) + [x[0]]))(list(map(int, input().split()))))])
