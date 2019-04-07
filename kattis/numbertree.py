@@ -1,0 +1,1 @@
+(lambda y:print((2**(y[0]+1))-(2**(len(y[1])+1))+((lambda x:x[-1]if[x.append((x[i-1]*2)+(v=='L')) for(i,v)in enumerate(y[1],1)]else 0)([0]))+1))((lambda x:(int(x[0]),''.join(x[1:])))(input().split()))
