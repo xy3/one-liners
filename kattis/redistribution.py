@@ -1,0 +1,1 @@
+(lambda z:(lambda v:print((lambda y:('impossible'if v[y[0]]>sum([v[i]for i in y[1:]])else' '.join([str(i+1)for i in y])))(sorted(range(z),key=lambda x:-v[x]))))(list(map(int,input().split()))))(int(input()))
