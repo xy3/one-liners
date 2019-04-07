@@ -1,0 +1,1 @@
+print("\n".join(list(map(str,(lambda d:[sum([d[w]if w in d else 0 for w in c.split()])for c in (__import__("sys")).stdin.read().split(".")[:-1]])((lambda m:{l[0]:int(l[1])for l in [input().split()for _ in range(m)]})(list(map(int,input().split()))[0]))))))
