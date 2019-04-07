@@ -1,0 +1,1 @@
+[print(f"Case #{n}:",((lambda x:"ON"if x[1]%(2**x[0])==(2**x[0])-1 else"OFF")(list(map(int,input().split()))))) for n in range(1, int(input())+1)]
