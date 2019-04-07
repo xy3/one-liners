@@ -1,0 +1,1 @@
+(lambda d:[print(' '.join((lambda s:0 if not[(lambda _:(s.append('.')if w.lower()in d else s.append(w),d.add(w.lower())))(0)for w in l.split()]else s)([])))for l in(__import__('sys')).stdin.readlines()])(set())
