@@ -1,0 +1,1 @@
+print((lambda x, y: '' if any([1 if y[i]+y[i+1]>y[i+2] else 0 for i in range(x-2)]) else 'im')(int(input()), sorted(map(int, input().split()))) + 'possible')
