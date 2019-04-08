@@ -1,0 +1,1 @@
+(lambda n,j:print(((lambda t:t if[(lambda x,y,z:(t.__setitem__(0,t[0]+x-t[1]),t.__setitem__(1,x),t.__setitem__(0,t[0]+max(y-t[0]%(y+z),0))))(*list(map(int,input().split())))for _ in range(n)]and not t.__setitem__(0,t[0]+j-t[1])else 0)([0,0]))[0]))(*map(int,input().split()))
