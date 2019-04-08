@@ -1,0 +1,1 @@
+[(lambda x:print('{:.2f} {:.2f}'.format((__import__('math')).degrees((__import__('math')).atan2(x[1]*x[4],x[0]*x[3])),(__import__('math')).hypot(x[0]*x[3],x[1]*x[4])/x[2])))(list(map(int,l.split()))) for l in (__import__('sys')).stdin.readlines()[:-1]]
