@@ -1,0 +1,1 @@
+print((lambda x: "Your wish is granted!"if 2**int(x[1])>=int(x[0])else"You will become a flying monkey!")(input().split()))
