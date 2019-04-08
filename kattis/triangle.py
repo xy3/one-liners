@@ -1,0 +1,1 @@
+(lambda x:[(lambda:(x.__setitem__(0,x[0]+1),print(f'Case {x[0]}: {len(str((3**(l+1))//(2**l)))}')))()for l in map(int,(__import__('sys')).stdin.readlines())])([0])
