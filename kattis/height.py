@@ -1,0 +1,1 @@
+[(lambda v:(lambda x:print(v[0],sum([((lambda _:len([i for i in x if i>s])if not x.append(s)else 0)(0))for s in v[1:]])))([]))(list(map(int,input().split())))for _ in range(int(input()))]
