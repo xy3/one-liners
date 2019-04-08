@@ -1,0 +1,1 @@
+(lambda v:[print(''.join([c if c==' 'else v[v.index(c)-1]for c in l.strip()]))for l in (__import__('sys')).stdin.readlines()])(r"1234567890-=QWERTYUIOP[]\ASDFGHJKL;'ZXCVBNM,./")
