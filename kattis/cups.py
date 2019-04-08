@@ -1,0 +1,1 @@
+(lambda v:print('\n'.join(sorted(v,key=lambda x:v[x]))))((lambda v:v if[(lambda x:v.__setitem__(x[1],int(x[0])//2)if all([c in set('0123456789')for c in x[0]])else v.__setitem__(x[0],int(x[1])))(input().split())for i in range(int(input()))]else 0)({}))
