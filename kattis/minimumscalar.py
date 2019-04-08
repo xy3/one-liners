@@ -1,0 +1,1 @@
+[print(f'Case #{i}: {((lambda x,y,z:sum([y[i]*z[i]for i in range(x)]))(int(input()),sorted(map(int,input().split())),sorted(map(int,input().split()),reverse=1)))}') for i in range(1, int(input())+1)]
