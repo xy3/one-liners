@@ -1,0 +1,1 @@
+(lambda x,y,z:print(z+abs(z-y)if z-y==y-x else y+abs(y-x)if z-y>y-x else x+abs(z-y)))(*sorted(list(map(int, input().split()))))
