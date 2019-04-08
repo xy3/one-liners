@@ -1,0 +1,1 @@
+[(lambda a:(lambda t,d:print(t,a[0])if[(lambda _:[(lambda:(a.__setitem__(1,min(a[1],d[j-1])),a.__setitem__(0,a[0]+1)if d[i-1]<a[1]and d[j]<a[1]else 0))()for j in range(i+1,len(d))])(a.__setitem__(1,d[i]))for i in range(1,len(d)-1)]else 0)(*list((lambda x:(x[0],list(x[1:])))(list(map(int,input().split()))))))([0,0])for _ in range(int(input()))]
