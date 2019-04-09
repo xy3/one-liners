@@ -1,0 +1,1 @@
+(lambda a:[(lambda x:print(''.join([a[(a.index(c)+int(x[0]))%len(a)]for c in x[1][::-1]])))(l.split())for l in(__import__('sys')).stdin.readlines()[:-1]])("ABCDEFGHIJKLMNOPQRSTUVWXYZ_.")
