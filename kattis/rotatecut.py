@@ -1,0 +1,1 @@
+[(lambda v:(v.__setitem__(3,v[3][::-1])if v[4]else 0,print(v[3])))((lambda v:v if[(lambda _:(v.__setitem__(0,(v[1]//4)),(lambda _:(v.__setitem__(4,not v[4]),v.__setitem__(1,v[1]-v[0]),v.__setitem__(3,v[3][::-1][:v[1]]))if v[0]!=0 else 0)(0)))(0)for _ in range(v[2])]else 0)((lambda x:[0,len(x[1]),int(x[0]),x[1],False])(input().strip().split())))for _ in range(int(input()))]	
