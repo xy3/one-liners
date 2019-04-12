@@ -1,0 +1,1 @@
+(lambda v:(lambda d:(lambda y:(print(y[0], end=' '),[(lambda:(y.__setitem__(0,d[y[0]]),print(y[0],end=' ')))()for _ in d if y[0]in d], print()))([int(v[0])]))((lambda d:d if[(lambda p:[d.__setitem__(j,p[0])for j in p[1:]])(list(map(int,l.split())))for l in v[1:]]else 0)({})))((__import__('sys')).stdin.readlines()[:-1])
