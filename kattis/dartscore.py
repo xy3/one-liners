@@ -1,0 +1,1 @@
+[print((lambda s:s if[(lambda v:s.__setitem__(0,s[0]+max(0,10)if v==0 else s[0]+max(0,11-v)))((lambda x,y:(__import__('math')).ceil((x**2+y**2)**0.5/20))(*map(int,input().split())))for _ in range(int(input()))]else 0)([0])[0])for _ in range(int(input()))]
