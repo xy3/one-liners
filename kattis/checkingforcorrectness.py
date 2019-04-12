@@ -1,0 +1,1 @@
+(lambda v:[(lambda x:print(v[x[1]](int(x[0]),int(x[2]))))(l.split())for l in (__import__('sys')).stdin.readlines()])({'+':(lambda x,y:(x+y)%10000),'*':(lambda x,y:(x*y)%10000),'^':(lambda x,y:pow(x,y,10000))})
