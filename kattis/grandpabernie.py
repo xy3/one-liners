@@ -1,0 +1,1 @@
+(lambda d:([(lambda x,y:d[x].append(int(y))if x in d else d.__setitem__(x,[int(y)]))(*input().split())for i in range(int(input()))],[d.__setitem__(k,sorted(d[k]))for k in d],[(lambda x,t:print(d[x][int(t)-1]))(*input().split())for i in range(int(input()))]))({})
