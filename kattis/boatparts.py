@@ -1,0 +1,1 @@
+(lambda v:print('paradox avoided'if v<0 else v))((lambda x,y,s,v:v if[(lambda:(s.add(input().strip()),v.__setitem__(0,i)if len(s)==x and v[0]<0 else 0))()for i in range(1,y+1)]else 0)(*map(int,input().split()),set(),[-1])[0])
