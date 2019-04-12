@@ -1,0 +1,1 @@
+print(max(0,((lambda y:(lambda z:z if[(z.__setitem__(0,z[0]+1)if v%2 else 0) for v in y.values()]else 0)([0])[0])((lambda y:y if[y.__setitem__(c,y[c]+1)for c in input()]else 0)((__import__('collections')).defaultdict(int))))-1))
