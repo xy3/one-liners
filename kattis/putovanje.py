@@ -1,0 +1,1 @@
+print((lambda _,c,f:(lambda x:x if[x.__setitem__(0,max(x[0],(lambda v:v if[(lambda:(v.__setitem__(0,v[0]+f[j]),v.__setitem__(1,v[1]+1)))()for j in range(i, len(f))if v[0]+f[j]<=c]else 0)([0,0])[1]))for i in range(len(f))]else 0)([0])[0])(*map(int,input().split()),list(map(int,input().split()))))
