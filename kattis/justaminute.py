@@ -1,0 +1,1 @@
+(lambda v:print('measurement error'if v[1]/v[0]<=1 else f'{v[1]/v[0]:.8f}'))((lambda v:v if[(lambda a,b:(v.__setitem__(0,v[0]+a*60),v.__setitem__(1,v[1]+b)))(*map(int,input().split()))for _ in range(int(input()))]else 0)([0,0]))
