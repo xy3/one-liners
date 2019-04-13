@@ -1,0 +1,1 @@
+(lambda v:print(sum((lambda x,y:((x[0]-y[0])**2+(x[1]-y[1])**2)**0.5)(x,y)for x,y in zip(v, v[1:]))))((lambda v:v if[[v.__setitem__(n-1,(i,j))for j,n in enumerate(map(int,input().split()))]for i in range(3)]else 0)([None]*9))
