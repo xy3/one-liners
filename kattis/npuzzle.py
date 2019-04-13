@@ -1,0 +1,1 @@
+(lambda d:print((lambda v:v if[(lambda s:[(v.__setitem__(0,v[0]+abs(i-d[s[j]][0])+abs(j-d[s[j]][1]))if s[j]!='.'else 0)for j in range(4)])(input())for i in range(4)]else 0)([0])[0]))((lambda d:d if[[d.__setitem__(['ABCD','EFGH','IJKL','MNO.'][i][j],(i,j))for j in range(4)]for i in range(4)]else 0)({}))
