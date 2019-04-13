@@ -1,0 +1,1 @@
+(lambda v:print("NO")if[(lambda:(v.__setitem__(4,v[4]+b),(lambda:(v.__setitem__(4,0),v.__setitem__(0,v[0]-1)))()if v[4]==v[1] else (lambda:(print("NO"),(__import__('sys')).exit()))()if v[4]>v[1]else 0,(lambda:(print("YES"),(__import__('sys')).exit()))()if v[0]==0 else 0))()for b in v[3]]else 0)([*map(int, input().split()),list(map(int,input().split())),0])
