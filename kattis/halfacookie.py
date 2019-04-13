@@ -1,0 +1,1 @@
+(lambda m:[(lambda r,x,y:(lambda d:print('miss')if d>r else(lambda t:(lambda x:print(m.pi*(r**2)-x,x))((r**2)*(t-m.sin(t))/2))(2*m.acos(d/r)))((x**2+y**2)**0.5))(*map(float,l.split()))for l in (__import__('sys')).stdin.readlines()])((__import__('math')))
