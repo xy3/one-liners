@@ -1,0 +1,1 @@
+[print(''.join((lambda x,y:(lambda v,l:v if[v.append('1')if len([1 for j in range(x)if l[j][i]==1])>x/2 else v.append('0')for i in range(y)]else 0)([],[[int(x) for x in input().strip()]for _ in range(x)]))(*map(int,input().split()))))for _ in range(int(input()))]
