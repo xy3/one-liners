@@ -1,0 +1,1 @@
+[(lambda s,v:print(f'{(v[0]/v[1]):.4f}',*s)if[(lambda:(v.__setitem__(0,v[0]+float(x)),v.__setitem__(1,v[1]+1)))()if x[0]in"0123456789"else s.append(x)for x in l.split()]else 0)([],[0,0])for l in(__import__('sys')).stdin.readlines()]
