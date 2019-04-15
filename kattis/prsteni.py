@@ -1,0 +1,1 @@
+(lambda _,gs:[print((lambda a,b:(lambda g:f'{a//g}/{b//g}')((lambda a,b:(lambda v:v if[(lambda:(v.__setitem__(2,v[1]),v.__setitem__(1,v[0]%v[1]),v.__setitem__(0,v[2])))()for i in range(10)if v[1]]else 0)([max(a,b),min(a,b),0])[0])(a,b)))(gs[0],gs[i]))for i in range(1,len(gs))])(int(input()),[*map(int,input().split())])
