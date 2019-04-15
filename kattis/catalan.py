@@ -1,1 +1,1 @@
-[print((lambda n: (__import__("math")).factorial(n*2) // ((__import__("math")).factorial(n)**2) // (n + 1))(int(input()))) for _ in range(int(input()))]
+[print((lambda n,m:m.factorial(n*2)//(m.factorial(n)**2)//(n+1))((__import__('math')),int(input())))for _ in range(int(input()))]
