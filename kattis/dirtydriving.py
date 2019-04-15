@@ -1,0 +1,1 @@
+(lambda _,y,z:print((lambda v:v[0] if[(lambda x:v.__setitem__(0,x if x>v[0]else v[0]))(z[0]-(c-y*(n+1)))for n,c in enumerate(z)]else 0)([0])))(*map(int,input().split()),sorted(map(int,input().split())))
