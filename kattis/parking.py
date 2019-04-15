@@ -1,0 +1,1 @@
+(lambda s,x,y:print((lambda v:v if[(lambda:(v.__setitem__(1,v[1]+x.count(t)),v.__setitem__(1,v[1]-y.count(t)),v.__setitem__(0,v[0]+s[v[1]]*v[1])))()for t in range(1,max(y)+1)]else 0)([0,0])[0]))([0,*map(int,input().split())],*(lambda x:([t[0]for t in x],[t[1]for t in x]))([tuple(map(int,input().split()))for _ in range(3)]))
