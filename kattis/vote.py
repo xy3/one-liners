@@ -1,0 +1,1 @@
+[(lambda v:(lambda m:print('no winner'if v.count(m)>1 else f'majority winner {v.index(m)+1}'if m>sum(v)/2 else f'minority winner {v.index(m)+1}'))(max(v)))([int(input())for _ in range(int(input()))])for _ in range(int(input()))]
