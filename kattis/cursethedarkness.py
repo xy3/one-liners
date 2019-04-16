@@ -1,0 +1,1 @@
+[(lambda v:([(lambda x,y:v.__setitem__(2,((lambda w,x,y,z:(__import__('math')).sqrt((w-y)*(w-y)+(x-z)*(x-z)))(v[0],v[1],x,y)<=8))if not v[2]else 0)(*map(float,input().split()))for _ in range(int(input()))],print('light a candle'if v[2]else'curse the darkness')))([*map(float,input().split()),0])for _ in range(int(input()))]
