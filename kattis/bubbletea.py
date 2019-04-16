@@ -1,0 +1,1 @@
+(lambda v:print(max(int(input())//v-1,0)))(((lambda n,z,_,t,v:v if[(lambda p:[(lambda x:v.__setitem__(0,x)if not v[0]or v[0]>x else 0)(z[i]+t[e-1])for e in p])(list(map(int,input().split()))[1:])for i in range(n)]else 0)(int(input()),list(map(int, input().split())),input(),list(map(int,input().split())),[0]))[0])
