@@ -1,0 +1,1 @@
+(lambda t:[(lambda s:(lambda _:t.add(s[1]))(print(s[1]+' entered (ANOMALY)'if s[1]in t else s[1]+' entered'))if s[0][1]=='n'else print((lambda _:s[1]+' exited')(t.remove(s[1]))if s[1]in t else s[1]+' exited (ANOMALY)'))(input().split())for i in range(int(input()))])(set())
