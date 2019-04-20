@@ -1,0 +1,1 @@
+(lambda mt:(lambda fl:[print(fl[int(l)])for l in (__import__('sys')).stdin.readlines()])((lambda v,cx:cx if[(lambda:(v.__setitem__(0,v[0]+mt.log(i,10)),cx.__setitem__(i,int(mt.floor(v[0])))))()for i in range(1,1000001)]else 0)([1],[1]+[None]*(1000000))))((__import__('math')))
