@@ -1,0 +1,1 @@
+(lambda n,d:print((lambda xx,v:v if([(lambda:(v.__setitem__(1,d[i])if d[i]>v[1]else 0,xx.__setitem__(i,v[1])))()for i in range(n)],v.__setitem__(0,v[1]),[(lambda:(v.__setitem__(0,d[i])if d[i] < v[0]else 0,v.__setitem__(2,v[2]+1)if v[0]==xx[i]else 0))()for i in range(n-1,-1,-1)])else 0)([None]*n,[0,0,0])[2]))(int(input()),[int(x)for x in input().split()])
