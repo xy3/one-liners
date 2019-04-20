@@ -1,0 +1,1 @@
+print((lambda x,y:(lambda ls,v:v if([[v.__setitem__(0,b)if len(b)>=2 and b<v[0]else 0 for b in l.split('#')]for l in ls],[[v.__setitem__(0,b)if len(b)>=2 and b<v[0]else 0 for b in''.join([ls[j][i]for j in range(x)]).split('#')]for i in range(y)])else 0)([input()for _ in range(x)],['z'])[0])(*map(int, input().split())))
