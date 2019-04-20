@@ -1,0 +1,1 @@
+(lambda p3:[print('{ ' + ', '.join((lambda x:x if[x.append(str(p3[i])) if(1<<i)&int(l)-1 else 0 for i in range(len(p3))]else 0)([]))+' }')for l in(__import__('sys')).stdin.readlines()[:-1]])((lambda p3:p3 if[p3.append(p3[-1]*3)for _ in range(63)]else 0)([1]))	
