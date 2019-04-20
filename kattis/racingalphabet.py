@@ -1,0 +1,1 @@
+(lambda math:(lambda gl:[(lambda s:(lambda v:print(sum([(lambda:(gl(v[0],d)/15,v.__setitem__(0,d)))()[0]for d in s[1:]])+len(s)))([s[0]]))(input())for _ in range(int(input()))])(lambda c,o:(lambda arc:(lambda a:(lambda x,y:(min(arc(y-x),arc(x-y))))(a.find(c),a.find(o)))("ABCDEFGHIJKLMNOPQRSTUVWXYZ '"))(lambda n:2*math.pi*30*((n%28)/28))))((__import__('math')))
