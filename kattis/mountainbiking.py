@@ -1,0 +1,1 @@
+(lambda m,n,gr:(lambda d:[print((lambda v:v if[(lambda:(v.__setitem__(1,v[0]*v[0]+2*y*x),v.__setitem__(0,m.sqrt(v[1]))))()for x,y in d[i:]]else 0)([0,0])[0])for i in range(int(n))])((lambda d:d if[(lambda dt,ad:d.append((dt,float(gr)*m.cos(m.radians(ad)))))(*map(int,input().split()))for _ in range(int(n))]else 0)([])))((__import__('math')),*input().split())
