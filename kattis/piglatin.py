@@ -1,0 +1,1 @@
+(lambda vs:[print(' '.join((lambda x:x if[x.append(w+'yay')if w[0] in vs else(lambda i:x.append(w[i:]+w[:i]+'ay'))((lambda x:x if[x.append(i)if w[i]in vs else 0 for i in range(len(w))]else 0)([])[0])for w in l.split()]else 0)([])))for l in(__import__('sys')).stdin.readlines()])(set(['a','e','i','o','u','y']))
