@@ -1,0 +1,1 @@
+print((lambda _,x,v:v if[(lambda:(v.__setitem__(0,v[0]+1),x.__setitem__(h-1,x[h-1]+1)if h-1>=0 else 0))()if not x[h] else(lambda:(x.__setitem__(h,x[h]-1),x.__setitem__(h-1,x[h-1]+1)if h-1>=0 else 0))()for h in (int(x) for x in input().split())]else 0)(int(input()),[0]*1000000,[0])[0])
