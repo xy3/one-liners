@@ -1,0 +1,1 @@
+(lambda mx,n,v:(lambda ex:([(lambda x,y,z:(ex(0)if x>v[0]else 0,v.__setitem__(0,(v[0]-x)+y),ex(0)if v[0]>mx or(z>0 and(mx-v[0])>0)else 0))(*map(int,input().split()))for _ in range(n)],ex(1)))(lambda vx:(print('possible'if vx and not v[0]>0 else'impossible'),(__import__('sys')).exit())))(*map(int,input().split()),[0])
