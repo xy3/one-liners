@@ -1,0 +1,1 @@
+(lambda v:print(v[0]if len(v)else 0))((lambda d:sorted(sorted(d),key=lambda x:-d[x]))((lambda _,__,x,y,d:d if[[d.__setitem__(j-i,d[j-i]+1) if(i<=j)else 0for j in y]for i in x]else 0)(input(),input(),list(map(int,input().split())),list(map(int,input().split())),(__import__('collections')).defaultdict(int))))
