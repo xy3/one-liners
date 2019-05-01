@@ -22,3 +22,7 @@ If you're interested in trying to write some one liners, these pages are quite u
 [One-lined Python](https://onelinepy.herokuapp.com/)
 
 [Lambdas](http://book.pythontips.com/en/latest/lambdas.html)
+
+[Stupid Lambda Tricks](http://p-nand-q.com/python/lambda.html)
+
+[Iterating with Lambdas](https://caisbalderas.com/blog/iterating-with-python-lambdas/)
