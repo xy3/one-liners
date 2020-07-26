@@ -1,5 +1,5 @@
-# OneLineBlunders
-## Python \n One \n Line \n Blunders
+# one-liners
+## Python \n One \n Liners \n
 
 Most one liners here are Kattis problems.
 
